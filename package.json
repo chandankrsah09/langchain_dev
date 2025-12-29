@@ -1,0 +1,20 @@
+{
+  "name": "langchain_dev",
+  "version": "1.0.0",
+  "description": "Langchain Development",
+  "type": "module",
+  "main": "agent.js",
+  "scripts": {
+    "start": "node agent.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/agents": "^0.1.0",
+    "@langchain/community": "^1.1.1",
+    "@langchain/core": "^1.1.8",
+    "@langchain/google-genai": "^2.1.3",
+    "dotenv": "^16.4.7",
+    "langchain": "^1.2.3"
+  }
+}
